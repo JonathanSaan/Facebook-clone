@@ -6,17 +6,8 @@
 	<style>
 	  body{
 	    background-color: #EFF2F5;
-	    display: flex;
-	    justify-content: center;
-	    align-items: center;
+	    margin: 0;
 	    font-family: Helvetica, Sans-Serif;
-	    height: 500px;
-	  }
-	  
-	  
-	  div#facebook{
-	    margin-top: -10px;
-	    margin-right: 50px;
 	  }
 	  
 	  
@@ -33,6 +24,14 @@
 	    font-size: 28px;
 	    color: #1c1e21;
 	 }
+	  
+	  
+	  div.container{
+	    display: grid;
+	    grid-template-columns: 1.5fr 1fr;
+	    margin-top: 200px;
+	    margin-left: 100px;
+	  }
 	  
 	  
 	  div#login{
@@ -84,7 +83,7 @@
             border-radius: 2px;
             margin: 10px;
             width: 230px;
-	  }
+          }
 	  
 	  
 	  button#criar{
@@ -97,36 +96,53 @@
 	  }
 	  
 	  
-	  p{
+	  #criar-pagina, p{
+	    margin-top: 30px;
 	    font-size: 9px;
 	    margin-left: 5px;
 	  }
 	  
 	  
 	  footer{
+	    display: flex;
 	    background-color: white;
+	    font-size: 14px;
+	    color: black;
+	    margin-left: -50px;
+	    margin-right: -50px;
+	    padding-bottom: 120%;
+	    margin-top: 250px;
+	    justify-content: center;
+	    height: 219px;
 	  }
 	  
 	</style>
 	  
 </head>
 <body >
-   <div id="facebook">
+ 
+  <div class="container">
+     <div>
         <img src="facebook.svg" alt="Logo Facebook" />
-        <h2>o Facebook ajuda você a se conectar e <br>compartilhar com as pessoas que <br> fazem parte da sua vida</h2>
+        <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que <br>fazem parte da sua vida</h2>
    </div>
- <main>
   <div id="login">
-    
     <input type="text" placeholder="Email ou telefone"/>
     <input type="password" placeholder="Senha" />
     <button id="entrar" type="submit"><strong>Entrar</strong></button>
     <a id="senha" href="#">esqueceu a senha?</a>
     <hr />
-    <a href="https://youtu.be/H9aC5AGY9YU"> <button id="criar" type="submit"> <strong>Criar nova conta </strong></button> </a>
+    <a href="#"> <button id="criar" type="submit"> <strong>Criar nova conta </strong></button> </a>
+    <p id="criar-pagina"> <strong>Criar uma página</strong> para uma celebridade, banda ou empresa</p>
   </div>
-  <p><strong>Criar uma página</strong> para uma celebridade, banda ou empresa</p>
-  </main>
+  </div>
+<footer>
+   <p>
+     Facebook © 2021
+     
+   </p>
+</footer>
+  
 
 </body>
 </html>
