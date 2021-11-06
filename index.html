@@ -31,7 +31,9 @@
 	    grid-template-columns: 1.5fr 1fr;
 	    margin-top: 200px;
 	    margin-left: 100px;
+	    grid: 40px;
 	  }
+	  
 	  
 	  
 	  div#login{
@@ -83,7 +85,7 @@
             border-radius: 2px;
             margin: 10px;
             width: 230px;
-          }
+	  }
 	  
 	  
 	  button#criar{
@@ -116,23 +118,55 @@
 	    height: 219px;
 	  }
 	  
+	  
+	  
+	  @media(max-width: 900px){
+	    .container{
+	      grid-template-columns: 1fr;
+	      margin-right: 0px;
+	    }
+	    img{
+	      margin: -28px auto;
+	    }
+            div#facebook, h2{
+              display: flex;
+       	      text-align: center;
+    	      margin: 0 auto;
+    	      margin-top: -100px;
+    	      font-size: 14px;
+    	  
+	    }
+	    p{
+              text-align: center;
+              font-size: 10px;
+            }
+	    form{
+	      max-width: 400px;
+              margin: 0 auto;
+	    }
+	  }
+	  
+	  
+	  
 	</style>
 	  
 </head>
 <body >
  
   <div class="container">
-     <div>
+     <div id="facebook">
         <img src="facebook.svg" alt="Logo Facebook" />
-        <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que <br>fazem parte da sua vida</h2>
-   </div>
+        <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida</h2>
+     </div>
   <div id="login">
-    <input type="text" placeholder="Email ou telefone"/>
-    <input type="password" placeholder="Senha" />
-    <button id="entrar" type="submit"><strong>Entrar</strong></button>
-    <a id="senha" href="#">esqueceu a senha?</a>
-    <hr />
-    <a href="#"> <button id="criar" type="submit"> <strong>Criar nova conta </strong></button> </a>
+    <form>
+      <input type="text" placeholder="Email ou telefone"/>
+      <input type="password" placeholder="Senha" />
+      <button id="entrar" type="submit"><strong>Entrar</strong></button>
+      <a id="senha" href="#">esqueceu a senha?</a>
+      <hr />
+      <a href="#"> <button id="criar" type="submit"> <strong>Criar nova conta </strong></button> </a>
+    </form>
     <p id="criar-pagina"> <strong>Criar uma página</strong> para uma celebridade, banda ou empresa</p>
   </div>
   </div>
