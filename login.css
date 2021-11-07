@@ -25,9 +25,7 @@
 	    grid-template-columns: 1.5fr 1fr;
 	    margin-top: 200px;
 	    margin-left: 100px;
-	    grid: 40px;
 	  }
-	  
 	  
 	  
 	  div#login{
@@ -112,11 +110,12 @@
 	  }
 	  
 	  
-	  
 	  @media(max-width: 900px){
+	    body{
+	    width: 310px;
+            padding: 10px;
+           }
 	    .container{
-	      grid-template-columns: 1fr;
-	      margin-right: 9%;
 	      float: right;
 	      margin-bottom: 100px;
 	    }
@@ -124,7 +123,6 @@
 	      margin: -90px auto;
 	      margin-left: 270px;
 	    }
-
             div#facebook{
               display: inline
               margin: auto;
@@ -134,19 +132,13 @@
 	      position: absolute;
 	      text-align: justify;
 	      width: 250px;
-	      font-size: 14px;
+	      font-size: 15px;
 	      margin-left: 280px;
 	      bottom: 73%;
 	    }
-	    p {
-              text-align: center;
-              font-size: 10px;
-            }
+	    
 	    form{
 	      max-width: 400px;
               margin: 0 auto;
 	    }
 	  }
-	  
-	  
-	  
