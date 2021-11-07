@@ -2,6 +2,7 @@
 <html lang="pt">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Facebook</title>
 	<style>
 	  body{
@@ -21,7 +22,7 @@
 	  
 	  h2{
 	    font-weight: 400;
-	    font-size: 28px;
+	    font-size: 26px;
 	    color: #1c1e21;
 	 }
 	  
@@ -38,7 +39,7 @@
 	  
 	  div#login{
 	    background-color: white;
-	    box-shadow: 5px 5px 10px #dbdfe0;
+	    box-shadow: 0 0 1em #dbdfe0;
 	    border-radius: 10px;
 	    height: 210px;
 	    padding: 10px;
@@ -99,7 +100,7 @@
 	  
 	  
 	  #criar-pagina, p{
-	    margin-top: 30px;
+	    margin-top: 40px;
 	    font-size: 9px;
 	    margin-left: 5px;
 	  }
@@ -112,10 +113,9 @@
 	    color: black;
 	    margin-left: -50px;
 	    margin-right: -50px;
-	    padding-bottom: 120%;
+	    padding-bottom: 50%;
 	    margin-top: 250px;
 	    justify-content: center;
-	    height: 219px;
 	  }
 	  
 	  
@@ -123,20 +123,29 @@
 	  @media(max-width: 900px){
 	    .container{
 	      grid-template-columns: 1fr;
-	      margin-right: 0px;
+	      margin-right: 9%;
+	      float: right;
+	      margin-bottom: 100px;
 	    }
 	    img{
-	      margin: -28px auto;
+	      margin: -90px auto;
+	      margin-left: 270px;
 	    }
-            div#facebook, h2{
-              display: flex;
-       	      text-align: center;
-    	      margin: 0 auto;
+
+            div#facebook{
+              display: inline
+              margin: auto;
     	      margin-top: -100px;
-    	      font-size: 14px;
-    	  
 	    }
-	    p{
+	    h2{
+	      position: absolute;
+	      text-align: justify;
+	      width: 250px;
+	      font-size: 14px;
+	      margin-left: 280px;
+	      bottom: 470px;
+	    }
+	    p {
               text-align: center;
               font-size: 10px;
             }
@@ -173,7 +182,6 @@
 <footer>
    <p>
      Facebook © 2021
-     
    </p>
 </footer>
   
