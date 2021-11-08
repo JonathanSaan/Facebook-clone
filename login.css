@@ -112,9 +112,9 @@
 	  
 	  @media(max-width: 900px){
 	    body{
-	    width: 310px;
-            padding: 10px;
-           }
+	      width: 310px;
+              padding: 10px;
+             }
 	    .container{
 	      float: right;
 	      margin-bottom: 100px;
@@ -129,12 +129,13 @@
     	      margin-top: -100px;
 	    }
 	    h2{
-	      position: absolute;
+	      position: absolute; 
 	      text-align: justify;
+	      max-width: 300px;
 	      width: 250px;
 	      font-size: 15px;
 	      margin-left: 280px;
-	      bottom: 83%;
+	      bottom: 73%;
 	    }
 	    
 	    form{
