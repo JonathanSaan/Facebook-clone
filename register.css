@@ -131,4 +131,35 @@ body{
 	    color: black; 
 	    justify-content: center;
 	  }
-	  
+	   @media(max-width: 900px){
+	     img{
+	       max-width: 40%;
+	      } 
+	      div#container{
+	       width: 340px;
+	       margin: auto;
+	       margin-bottom: 10%;
+	      }
+	      input#nome, input#sobrenome{
+	        width: 138px;
+	        right: 10px;
+	      }
+	      input#celularouemail, input#novasenha{
+	        width: 295px;
+	        right: 5px;
+	      }
+	      p#data_de_nascimento, p#genero {
+	        margin-left: 20px;
+    	      } 
+             select[name="Dia"], select[name="mes"], select[name="ano"]{
+    	        right: 31px;
+    	        min-width: 90px;
+    	     }
+    	     label{
+    	        display: inline;
+    	        min-width: 20px;
+    	        margin-left: 10px;
+    	        margin-right: 1px; 
+    	        font-size: 12px;
+    	      }
+	  }
