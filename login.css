@@ -118,11 +118,12 @@
 	  }
 	  
 	  
+	  	  
 	  @media(max-width: 900px){
 	    body{
-	      width: 310px;
-              padding: 10px;
-             }
+	      width: 280px;
+              margin: auto;
+            }
 	    .container{
 	      float: right;
 	      margin-bottom: 100px;
@@ -143,10 +144,18 @@
 	      font-size: 15px;
 	      margin-left: 280px;
               margin-top: 80px;
-	    }
+	     }
 	    
 	    form{
 	      max-width: 400px;
               margin: 0 auto;
+	    }
+	    footer{
+	      position: absolute;
+	      bottom: -650px;
+	      left: 0;
+	      right: ;
+	      height: auto;
+	      width: 100vw;
 	    }
 	  }
