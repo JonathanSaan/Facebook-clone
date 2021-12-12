@@ -5,7 +5,6 @@ body{
 	    padding: 0;
 	  }
 	  
-	  
 	  img{
 	    display: block;
 	    margin: auto;
@@ -14,7 +13,6 @@ body{
 	    margin-top: 1%;
 	    margin-bottom: 1%;
 	  }
-	  
 	  
 	  div#container{
 	    text-align: center;
@@ -29,17 +27,22 @@ body{
 	    
 	  }
 	  
+	  #primeiroh2{
+	    margin-bottom: -20px;
+	  }
 	  
 	  .h2pcenter{
 	    text-align: center;
 	  }
 	  
+	  hr{
+	    border: 1px solid #c9cdce;
+	  }
 	  
-	  p{
+	  p, cite{
 	    margin-top: 30px;
 	    margin-left: 10px;
 	  }
-	  
 	  
 	  input#nome, input#sobrenome{
 	    margin: 5px;
@@ -49,7 +52,6 @@ body{
 	    width: 174px;
 	  }
 	  
-	  
 	  input#celularouemail, input#novasenha{
 	    margin: 5px;
 	    height: 30px;
@@ -58,12 +60,10 @@ body{
 	    width: 370px;
 	  }
 	  
-	  
 	  select, label{
 	    margin-left: 20px;
 	    margin-right: -1px;
 	  } 
-	  
 	  
 	  select[name="Dia"], select[name="mes"], select[name="ano"] {
 	    min-width: 115px;
@@ -74,7 +74,6 @@ body{
 	    border-radius: 5px;
 	    background-color: white;
 	  }
-	  
 	  
 	  fieldset{
 	    display: inline-block;
@@ -87,23 +86,21 @@ body{
 	    border-radius: 5px;
 	  }
 	  
-	  
 	  p#data_de_nascimento {
 	    margin-right: 275px;
 	    margin-top: 10px;
 	  }
+
 	  p#genero{
 	    margin-right: 345px;
 	    margin-top: 10px;
 	  }
 	  
-	  
-	  p, a{
+	  p, a, cite{
 	    text-align: left;
 	    text-decoration: none;
 	    font-size: 12px;
 	  }
-	  
 	  
 	  button{
 	    display: block;
@@ -116,8 +113,7 @@ body{
 	    margin: auto;
 	    text-align: center;
 	  }
-	  
-	  
+	 
 	  a#conta{
 	    text-decoration: none;
 	    font-size: 15px;
@@ -131,7 +127,8 @@ body{
 	    color: black; 
 	    justify-content: center;
 	  }
-	   @media(max-width: 900px){
+	  
+	    @media(max-width: 900px){
 	     img{
 	       max-width: 40%;
 	      } 
@@ -150,16 +147,17 @@ body{
 	      }
 	      p#data_de_nascimento, p#genero {
 	        margin-left: 20px;
-    	      } 
-             select[name="Dia"], select[name="mes"], select[name="ano"]{
-    	        right: 31px;
-    	        min-width: 90px;
-    	     }
-    	     label{
-    	        display: inline;
-    	        min-width: 20px;
-    	        margin-left: 10px;
-    	        margin-right: 1px; 
-    	        font-size: 12px;
-    	      }
-	  }
+    	  } 
+    	  select[name="Dia"], select[name="mes"], select[name="ano"]{
+    	    right: 31px;
+    	    min-width: 90px;
+    	  }
+
+    	  label{
+    	    display: inline;
+    	    min-width: 20px;
+    	    margin-left: 10px;
+    	    margin-right: 1px; 
+    	    font-size: 12px;
+    	  }
+	    }
