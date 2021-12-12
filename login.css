@@ -112,11 +112,10 @@
 	    background-color: white;
 	    font-size: 14px;
 	    color: black;
-	    margin-left: -40px;
-	    margin-right: -40px;
-	    padding-bottom: 10%;
-	    margin-top: 140px;
-	    justify-content: center;
+	    height: 170px;
+	    margin-top: 150px; 
+	    text-align: center;
+	    justify-content: center; 
 	  }
 	  
 	  
@@ -153,11 +152,8 @@
               margin: 0 auto;
 	    }
 	    footer{
-	      position: absolute;
-	      bottom: -650px;
-	      left: 0;
-	      right: ;
-	      height: auto;
-	      width: 100vw;
+	      margin-top: 200px;
+	      margin-left: -12vw; 
+	      width: 100vw; 
 	    }
 	  }
