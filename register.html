@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Criar conta</title>
-        <link rel="shortcut icon" href="facebook.png">
 	<link rel="stylesheet" href="register.css"/>
+	<script type="text/javascript" src="register.js" defer> </script>
 </head>
 <body >
 <main>
@@ -13,9 +13,9 @@
     
   <div id="container">
   
-    <h2 class="h2pcenter" style="margin-bottom: -20px;">Criar uma nova conta</h2>
+    <h2 class="h2pcenter" id="primeiroh2">Criar uma nova conta</h2>
     <p class="h2pcenter">É rapido e fácil.</p>
-    <hr style="border: 1px solid #c9cdce;" />
+    <hr />
     <form >
       <input id="nome" type="text" placeholder="Nome"/>
       <input id="sobrenome" type="text" placeholder="Sobrenome"/>
@@ -23,38 +23,8 @@
       <input id="novasenha" type="password" placeholder="Nova senha"/>
       
       <p id="data_de_nascimento">Data de nascimento</p>
-      <select name="Dia">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-        <option value="14">14</option>
-        <option value="15">15</option>
-        <option value="16">16</option>
-        <option value="17">17</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
-        <option value="22">22</option>
-        <option value="23">23</option>
-        <option value="24">24</option>
-        <option value="25">25</option>
-        <option value="26">26</option>
-        <option value="27">27</option>
-        <option value="28">28</option>
-        <option value="29">29</option>
-        <option value="30">30</option>
-        <option value="31">31</option>
+      <select name="Dia" id="dia">
+        
       </select>
       
       <select name="mes">
@@ -72,25 +42,8 @@
         <option value="dezembro">dezembro</option>
       </select>
       
-      <select name="ano">
-          <option value="2000">2000</option>
-          <option value="2001">2001</option>
-          <option value="2002">2002</option>
-          <option value="2003">2003</option>
-          <option value="2004">2004</option>
-          <option value="2005">2005</option>
-          <option value="2006">2006</option>
-          <option value="2007">2007</option>
-          <option value="2008">2008</option>
-          <option value="2009">2009</option>
-          <option value="2010">2010</option>
-          <option value="2011">2011</option>
-          <option value="2012">2012</option>
+      <select name="ano" id="ano">
       </select>
-      
-      
-      
-      
       
       <p id="genero">Gênero</p>
       <fieldset>
@@ -113,12 +66,12 @@
       Ao clicar em Cadastre-se, você concorda com nossos <a href="#"> Termos, Política de Dados</a> e <a href="#">Política de Cookies.</a> Você poderá receber notificações por SMS e cancelar isso quando quiser.
     </p>
     <button type="submit"><strong>Cadastre-se</strong></button>
-    <a id="conta" href="index.html">Já tem uma conta?</a>
-  
+    <a id="conta" href="facebook.html">Já tem uma conta?</a>
   </div>
   </main>
+  
   <footer>
-    <p>Facebook © 2021 </p>
+    <cite>Facebook &copy; 2021</cite>
   </footer>
 </body>
 </html>
