@@ -1,75 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Criar conta</title>
-	<link rel="stylesheet" href="register.css"/>
-	<script type="text/javascript" src="register.js" defer> </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar conta</title>
+  <link rel="stylesheet" href="register.css" />
+  <script type="text/javascript" src="js/register.js" defer>
+  </script>
 </head>
-<body >
-<main>
+<body>
+  <main>
     <img src="facebook.svg" alt="Logo do face" />
-    
-  <div id="container">
-  
-    <h2 class="h2pcenter" id="primeiroh2">Criar uma nova conta</h2>
-    <p class="h2pcenter">É rapido e fácil.</p>
-    <hr />
-    <form >
-      <input id="nome" type="text" placeholder="Nome"/>
-      <input id="sobrenome" type="text" placeholder="Sobrenome"/>
-      <input id="celularouemail" type="text" placeholder="Celular ou email" />
-      <input id="novasenha" type="password" placeholder="Nova senha"/>
-      
-      <p id="data_de_nascimento">Data de nascimento</p>
-      <select name="Dia" id="dia">
-        
-      </select>
-      
-      <select name="mes">
-        <option value="janeiro">janeiro</option>
-        <option value="fevereiro">fevereiro</option>
-        <option value="marco">março</option>
-        <option value="abril">abril</option>
-        <option value="maio">maio</option>
-        <option value="junho">junho</option>
-        <option value="julho">julho</option>
-        <option value="agosto">agosto</option>
-        <option value="setembro">setembro</option>
-        <option value="outubro">outubro</option>
-        <option value="novembro">novembro</option>
-        <option value="dezembro">dezembro</option>
-      </select>
-      
-      <select name="ano" id="ano">
-      </select>
-      
-      <p id="genero">Gênero</p>
-      <fieldset>
-        <label for="homem">homem</label>
-        <input id="homem" type="radio" name="citizenship" />
-      </fieldset>
-      
-      <fieldset>
-        <label for="mulher">mulher</label>
-        <input id="mulher" type="radio" name="citizenship"/>
-      </fieldset>
-      
-      <fieldset>
-        <label for="personalizado">personalizado</label>
-        <input id="personalizado" type="radio" name="citizenship"
-         />
-       </fieldset>
-    </form>
-    <p id="termos">
-      Ao clicar em Cadastre-se, você concorda com nossos <a href="#"> Termos, Política de Dados</a> e <a href="#">Política de Cookies.</a> Você poderá receber notificações por SMS e cancelar isso quando quiser.
-    </p>
-    <button type="submit"><strong>Cadastre-se</strong></button>
-    <a id="conta" href="facebook.html">Já tem uma conta?</a>
-  </div>
+    <div id="container">
+      <h2 class="h2pcenter" id="primeiroh2">Criar uma nova conta</h2>
+      <p class="h2pcenter">
+        É rapido e fácil.
+      </p>
+      <hr />
+      <form>
+        <input id="nome" type="text" placeholder="Nome" />
+        <input id="sobrenome" type="text" placeholder="Sobrenome" />
+        <input id="celularouemail" type="text" placeholder="Celular ou email" />
+        <input id="novasenha" type="password" placeholder="Nova senha" />
+
+        <p id="data_de_nascimento">
+          Data de nascimento
+        </p>
+        <select name="Dia" id="dia">
+        </select>
+
+        <select name="mes">
+          <option value="janeiro">janeiro</option>
+          <option value="fevereiro">fevereiro</option>
+          <option value="marco">março</option>
+          <option value="abril">abril</option>
+          <option value="maio">maio</option>
+          <option value="junho">junho</option>
+          <option value="julho">julho</option>
+          <option value="agosto">agosto</option>
+          <option value="setembro">setembro</option>
+          <option value="outubro">outubro</option>
+          <option value="novembro">novembro</option>
+          <option value="dezembro">dezembro</option>
+        </select>
+
+        <select name="ano" id="ano">
+        </select>
+
+        <p id="genero">
+          Gênero
+        </p>
+        <fieldset>
+          <label for="homem">homem</label>
+          <input id="homem" type="radio" name="citizenship" />
+        </fieldset>
+
+        <fieldset>
+          <label for="mulher">mulher</label>
+          <input id="mulher" type="radio" name="citizenship" />
+        </fieldset>
+
+        <fieldset>
+          <label for="personalizado">personalizado</label>
+          <input id="personalizado" type="radio" name="citizenship"
+          />
+        </fieldset>
+      </form>
+      <p id="termos">
+        Ao clicar em Cadastre-se, você concorda com nossos <a href="#"> Termos, Política de Dados</a> e <a href="#">Política de Cookies.</a> Você poderá receber notificações por SMS e cancelar isso quando quiser.
+      </p>
+      <button is type="submit"><strong>Cadastre-se</strong></button>
+      <a id="conta" href="facebook.html">Já tem uma conta?</a>
+    </div>
   </main>
-  
+
   <footer>
     <cite>Facebook &copy; 2021</cite>
   </footer>

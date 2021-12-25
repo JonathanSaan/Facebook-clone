@@ -1,163 +1,160 @@
-body{
-	    background-color: #EEF1F4;
-	    font-family: Helvetica, sans-serif;
-	    margin: 0;
-	    padding: 0;
-	  }
-	  
-	  img{
-	    display: block;
-	    margin: auto;
-	    text-align: center;
-	    max-width: 30%;
-	    margin-top: 1%;
-	    margin-bottom: 1%;
-	  }
-	  
-	  div#container{
-	    text-align: center;
-	    width: 420px;
-	    margin: auto;
-	    margin-bottom: 10%;
-	    border-radius: 10px;
-	    background-color: white;
-	    box-shadow: 4px 4px 10px #b6bfc9;
-	    padding-top: 1px;
-	    padding-bottom: 30px;
-	    
-	  }
-	  
-	  #primeiroh2{
-	    margin-bottom: -20px;
-	  }
-	  
-	  .h2pcenter{
-	    text-align: center;
-	  }
-	  
-	  hr{
-	    border: 1px solid #c9cdce;
-	  }
-	  
-	  p, cite{
-	    margin-top: 30px;
-	    margin-left: 10px;
-	  }
-	  
-	  input#nome, input#sobrenome{
-	    margin: 5px;
-	    height: 30px;
-	    border: groove;
-	    border-radius: 4px;
-	    width: 174px;
-	  }
-	  
-	  input#celularouemail, input#novasenha{
-	    margin: 5px;
-	    height: 30px;
-	    border: groove;
-	    border-radius: 4px;
-	    width: 370px;
-	  }
-	  
-	  select, label{
-	    margin-left: 20px;
-	    margin-right: -1px;
-	  } 
-	  
-	  select[name="Dia"], select[name="mes"], select[name="ano"] {
-	    min-width: 115px;
-	    height: 35px;
-	    margin-left: 3px;
-	    margin-right: 6px;
-	    border: groove;
-	    border-radius: 5px;
-	    background-color: white;
-	  }
-	  
-	  fieldset{
-	    display: inline-block;
-            position: relative;
-            vertical-align: middle;
-            height: 30px;
-            padding: 0;
-            margin: 4px;
-            border: groove;
-	    border-radius: 5px;
-	  }
-	  
-	  p#data_de_nascimento {
-	    margin-right: 275px;
-	    margin-top: 10px;
-	  }
+body {
+  background-color: #EEF1F4;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-	  p#genero{
-	    margin-right: 345px;
-	    margin-top: 10px;
-	  }
-	  
-	  p, a, cite{
-	    text-align: left;
-	    text-decoration: none;
-	    font-size: 12px;
-	  }
-	  
-	  button{
-	    display: block;
-	    width: 200px;
-	    height: 32px;
-	    border: none;
-	    color: white;
-	    background-color: #00A400;
-	    border-radius: 7px;
-	    margin: auto;
-	    text-align: center;
-	  }
-	 
-	  a#conta{
-	    text-decoration: none;
-	    font-size: 15px;
-	  }
-	  
-	  
-	  footer{
-	    display: flex;
-	    padding-bottom: 10%;
-	    background-color: white;
-	    color: black; 
-	    justify-content: center;
-	  }
-	  
-	    @media(max-width: 900px){
-	     img{
-	       max-width: 40%;
-	      } 
-	      div#container{
-	       width: 340px;
-	       margin: auto;
-	       margin-bottom: 10%;
-	      }
-	      input#nome, input#sobrenome{
-	        width: 138px;
-	        right: 10px;
-	      }
-	      input#celularouemail, input#novasenha{
-	        width: 295px;
-	        right: 5px;
-	      }
-	      p#data_de_nascimento, p#genero {
-	        margin-left: 20px;
-    	  } 
-    	  select[name="Dia"], select[name="mes"], select[name="ano"]{
-    	    right: 31px;
-    	    min-width: 90px;
-    	  }
+img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 
-    	  label{
-    	    display: inline;
-    	    min-width: 20px;
-    	    margin-left: 10px;
-    	    margin-right: 1px; 
-    	    font-size: 12px;
-    	  }
-	    }
+div#container {
+  text-align: center;
+  width: 420px;
+  margin: auto;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 4px 4px 10px #b6bfc9;
+  padding-top: 1px;
+  padding-bottom: 30px;
+}
+
+#primeiroh2 {
+  margin-bottom: -20px;
+}
+
+.h2pcenter {
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #c9cdce;
+}
+
+p, cite {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+input#nome, input#sobrenome {
+  margin: 5px;
+  height: 30px;
+  border: groove;
+  border-radius: 4px;
+  width: 174px;
+}
+
+input#celularouemail, input#novasenha {
+  margin: 5px;
+  height: 30px;
+  border: groove;
+  border-radius: 4px;
+  width: 370px;
+}
+
+select, label {
+  margin-left: 20px;
+  margin-right: -1px;
+}
+
+select[name="Dia"], select[name="mes"], select[name="ano"] {
+  min-width: 115px;
+  height: 35px;
+  margin-left: 3px;
+  margin-right: 6px;
+  border: groove;
+  border-radius: 5px;
+  background-color: white;
+}
+
+fieldset {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  height: 30px;
+  padding: 0;
+  margin: 4px;
+  border: groove;
+  border-radius: 5px;
+}
+
+p#data_de_nascimento {
+  margin-right: 275px;
+  margin-top: 10px;
+}
+
+p#genero {
+  margin-right: 345px;
+  margin-top: 10px;
+}
+
+p, a, cite {
+  text-align: left;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+button {
+  display: block;
+  width: 200px;
+  height: 32px;
+  border: none;
+  color: white;
+  background-color: #00A400;
+  border-radius: 7px;
+  margin: auto;
+  text-align: center;
+}
+
+a#conta {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+footer {
+  display: flex;
+  padding-bottom: 10%;
+  background-color: white;
+  color: black;
+  justify-content: center;
+}
+
+@media(max-width: 900px) {
+  img {
+    max-width: 40%;
+  }
+  div#container {
+    width: 340px;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+  input#nome, input#sobrenome {
+    width: 138px;
+    right: 10px;
+  }
+  input#celularouemail, input#novasenha {
+    width: 295px;
+    right: 5px;
+  }
+  p#data_de_nascimento, p#genero {
+    margin-left: 20px;
+  }
+  select[name="Dia"], select[name="mes"], select[name="ano"] {
+    right: 31px;
+    min-width: 90px;
+  }
+  label {
+    display: inline;
+    min-width: 20px;
+    margin-left: 10px;
+    margin-right: 1px;
+    font-size: 12px;
+  }
+}
