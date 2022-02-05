@@ -7,18 +7,15 @@ body {
 
 img {
   display: block;
-  margin: auto;
+  margin: 1% auto 1% auto;
   text-align: center;
   width: 20%;
-  margin-top: 1%;
-  margin-bottom: 1%;
 }
 
 div#container {
   text-align: center;
   width: 420px;
-  margin: auto;
-  margin-bottom: 10%;
+  margin: auto auto 10% auto;
   border-radius: 10px;
   background-color: white;
   box-shadow: 4px 4px 10px #b6bfc9;
@@ -27,7 +24,7 @@ div#container {
 }
 
 #primeiroh2 {
-  margin-bottom: -20px;
+  margin: 0 0 -20px 0;
 }
 
 .h2pcenter {
@@ -39,8 +36,7 @@ hr {
 }
 
 p, cite {
-  margin-top: 30px;
-  margin-left: 10px;
+  margin: 30px 0 0 10px;
 }
 
 input#nome, input#sobrenome {
@@ -60,15 +56,13 @@ input#celularouemail, input#novasenha {
 }
 
 select, label {
-  margin-left: 20px;
-  margin-right: -1px;
+  margin: 0 -1px 0 20px;
 }
 
 select[name="Dia"], select[name="mes"], select[name="ano"] {
   min-width: 115px;
   height: 35px;
-  margin-left: 3px;
-  margin-right: 6px;
+  margin: 0 6px 0 3px;
   border: groove;
   border-radius: 5px;
   background-color: white;
@@ -86,13 +80,11 @@ fieldset {
 }
 
 p#data_de_nascimento {
-  margin-right: 275px;
-  margin-top: 10px;
+  margin: 10px 275px 0;
 }
 
 p#genero {
-  margin-right: 345px;
-  margin-top: 10px;
+  margin: 10px 345px 0;
 }
 
 p, a, cite {
@@ -132,8 +124,7 @@ footer {
   }
   div#container {
     width: 340px;
-    margin: auto;
-    margin-bottom: 10%;
+    margin: auto auto 10% auto;
   }
   input#nome, input#sobrenome {
     width: 138px;
@@ -144,7 +135,7 @@ footer {
     right: 5px;
   }
   p#data_de_nascimento, p#genero {
-    margin-left: 20px;
+    margin: 0 0 0 20px;
   }
   select[name="Dia"], select[name="mes"], select[name="ano"] {
     right: 31px;
@@ -153,8 +144,7 @@ footer {
   label {
     display: inline;
     min-width: 20px;
-    margin-left: 10px;
-    margin-right: 1px;
+    margin: 0 1px 0 10px;
     font-size: 12px;
   }
 }
